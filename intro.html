@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <script>
+        //variable
+        var a = 10;
+        var b = 20;
+        let c = "Hello";
+        var d = a + b; // jumlah
+        var e = a - b; // kurang
+        var f = a * b; // kali
+        var g = a / b; // bagi
+        var h = a ^ b // pangkat
+
+        //datatype
+        var karakter
+
+
+        console.log("Gabungan a dan b = " + c);
+
+        // Data tipe objek
+        var identitas = {
+            nama: 'upin',
+            umur: 5,
+            alamat: 'kampung durian runtuh'
+        };
+
+        // Menggabungkan data objek menjadi sebuah string
+        var data_identitas = "nama " + identitas.nama + ", umur " + identitas.umur + " tahun";
+        
+
+        var pesan_bahaya = "Awas bahaya!";
+
+        // function
+        function hitung(a, b) {
+            alert("hasil = " + (a * b));
+        }
+
+
+
+        function profil(nama, umur) {
+            alert("Nama: " + nama + ", Umur: " + umur + " tahun");
+        }
+
+        //function call
+        // hitung(5, 10);
+        profil ("Frendy", 20);
+
+
+        // Menampilkan hasil gabungan di console
+        // console.log(data_identitas);
+
+        var nilai = 50;
+        if (nilai => 80) {
+            alert("Nilai Anda A");
+        } else if (nilai => 70 && nilai < 80) {
+            alert("Nilai Anda B");
+        } else if (nilai => 60 && nilai < 70) {
+            alert("Nilai Anda C");
+        } else {
+            alert("Nilai Anda D"); 
+        }
+
+    </script>
+</body>
+
+</html>
